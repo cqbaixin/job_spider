@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="deeb6906-29ad-4558-8a3d-d7fa450eb9a2" name="Default Changelist" comment="" />
+    <list default="true" id="deeb6906-29ad-4558-8a3d-d7fa450eb9a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitnore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a0aade01-3b74-450d-a8a6-167b1ab039e9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a0aade01-3b74-450d-a8a6-167b1ab039e9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
@@ -92,9 +97,9 @@
     </configuration>
     <configuration name="go build job_spider" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="job_spider" />
-      <working_directory value="$PROJECT_DIR$/../job_spider" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/../job_spider/main.go" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <package value="job_spider" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -144,7 +149,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -158,11 +165,11 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../job_spider/model/job.go</url>
+          <url>file://$PROJECT_DIR$/model/job.go</url>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../job_spider/main.go</url>
+          <url>file://$PROJECT_DIR$/main.go</url>
           <line>8</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
