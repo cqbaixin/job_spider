@@ -6,6 +6,6 @@ import (
 )
 
 func main(){
-	spider := spider.NewWYSpider("php","sss")
+	spider := spider.NewWYSpider("php","ssss")
 	spider.Claw()
 }

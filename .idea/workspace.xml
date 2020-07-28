@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="deeb6906-29ad-4558-8a3d-d7fa450eb9a2" name="Default Changelist" comment="" />
+    <list default="true" id="deeb6906-29ad-4558-8a3d-d7fa450eb9a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a0aade01-3b74-450d-a8a6-167b1ab039e9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a0aade01-3b74-450d-a8a6-167b1ab039e9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build job_spider">
+  <component name="RunManager" selected="Go Build.go build test_spider">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="job_spider" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -131,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build job_spider" />
         <item itemvalue="Go Build.go build test_spider" />
+        <item itemvalue="Go Build.go build job_spider" />
         <item itemvalue="Go Build.go build test.go" />
       </list>
     </recent_temporary>
