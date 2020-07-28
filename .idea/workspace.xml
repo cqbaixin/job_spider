@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="deeb6906-29ad-4558-8a3d-d7fa450eb9a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a0aade01-3b74-450d-a8a6-167b1ab039e9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a0aade01-3b74-450d-a8a6-167b1ab039e9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="6a17cd30-8c2f-4140-b817-daca879a1a9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -70,6 +76,16 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\go\test_spider\init\mysql" />
     </key>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fIbkCF84QWkdkdJKKpNAJsi079" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> master
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,6 +99,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Go Build.go build test_spider">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="job_spider" />
@@ -140,6 +157,8 @@
       </list>
     </recent_temporary>
   </component>
+=======
+>>>>>>> master
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -148,14 +167,19 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+=======
+            <State />
+>>>>>>> master
           </value>
         </entry>
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>https://goproxy.cn</proxy>
@@ -175,4 +199,6 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+>>>>>>> master
 </project>
