@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/../job_spider/.idea/job_spider.iml" filepath="$PROJECT_DIR$/../job_spider/.idea/job_spider.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/test_spider.iml" filepath="$PROJECT_DIR$/.idea/test_spider.iml" />
+>>>>>>> dev
     </modules>
   </component>
 </project>
