@@ -14,12 +14,14 @@ import (
 type wySpider struct {
 	Class string
 	Url string
+	FromType string
 }
 
 func NewWYSpider(class string,url string)*wySpider{
 	return &wySpider{
 		Class: class,
 		Url:   url,
+		FromType:"51",
 	}
 }
 
@@ -62,9 +64,10 @@ func (wy *wySpider)Claw()  {
 			Class:     "php",
 			Status:    0,
 			PublishAt: publishAt,
+			FromType: 		wy.FromType,
 		}
 		findJob := new(model.Job)
-		err := mysql.DB.Where("name = ? and company = ? and min_salary = ? and max_salary = ? ",name,company,minSalary,maxSalary).First(&findJob).Error
+		err := mysql.DB.Where("name = ? and company = ? and min_salary = ? and max_salary = ? and from_type = ? ",name,company,minSalary,maxSalary,wy.FromType).First(&findJob).Error
 		if(err != gorm.ErrRecordNotFound){
 			mysql.DB.Model(&findJob).Update("status",1)
 		}else {

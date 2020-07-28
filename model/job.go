@@ -11,6 +11,7 @@ type Job struct {
 	MaxSalary 	int64			`gorm:"NOT NULL;content:'最大薪资'"`
 	Class 		string			`gorm:"NOT NULL;content:'分类'"`
 	Status		int				`gorm:"NOT NULL;default:1;content:'状态0下架1上架'"`
+	FromType	string			`gorm:"NOT NULL;default:'51';content:'来源'"`
 	PublishAt	time.Time
 	CreatedAt 	time.Time
 	UpdatedAt 	time.Time

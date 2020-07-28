@@ -3,12 +3,14 @@ package common
 import (
 	"bytes"
 	"errors"
+	"fmt"
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"golang.org/x/text/transform"
 	"io/ioutil"
 	"math"
 	"regexp"
 	"strconv"
+	"time"
 )
 
 func GbkToUtf8(str []byte) (b []byte, err error) {
@@ -77,4 +79,33 @@ func GetMaxMinSalary(str string)(int,int,error){
 		max = max * (mouthNum)
 	}
 	return int(math.Abs(min)),int(math.Abs(max)),nil
+}
+
+
+func GetHBMaxMinSalary(str string)(int,int,error){
+	regSalary := regexp.MustCompile(`(\-|\+)?\d+(\.\d+)?`)
+	res := regSalary.FindAllString(str,-1)
+	if(len(str)<=0){
+		return  0,0,errors.New("获取工资失败,失败字符串是:"+str)
+	}
+	min,_ := strconv.ParseFloat(res[0], 64)
+	max,_ :=  strconv.ParseFloat(res[1], 64)
+	return int(math.Abs(min)),int(math.Abs(max)),nil
+}
+
+func GetHBPublishAT(str string)time.Time  {
+	var t time.Time
+	var err error
+	switch str {
+	case "今天":
+		t,err = time.Parse("20060102",time.Now().Format("20060102"))
+	case "昨天":
+		t,err = time.Parse("20060102",time.Now().AddDate(0,0,-1).Format("20060102"))
+	default:
+		t,err = time.Parse("2006/01/02",fmt.Sprintf("%d/%s",time.Now().Year(),str))
+	}
+	if(err != nil){
+		t,_ = time.Parse("20060102",time.Now().Format("20060102"))
+	}
+	return t
 }
